@@ -1,0 +1,917 @@
+::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+  height: 20px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 100);
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scroll-anchor {
+	opacity: 0;
+	position: absolute;
+	font-size: 24px;
+}
+
+.pre-sticky-menu {
+	background-color: black;
+	color: black;
+    height: 75px;
+    text-align: center;
+	width: 100%;
+	height: 75px;
+	margin-top: -20px;
+}
+
+.no-list {
+		list-style-type: none;
+}
+
+.sticky-menu {
+	position: fixed;
+    top:0; left:0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 75px;
+    text-align: center;
+    vertical-align: center;
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.sticky-menu ul {
+	list-style-type: none;
+	margin-left: 50px;
+	margin: 0 auto;
+    width: -webkit-fit-content;
+       width: -moz-fit-content;
+            width: fit-content;
+}
+
+.sticky-menu li {
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	margin-right: 75px;
+	margin-top: 26px;
+	vertical-align: center;
+	color: white;
+	font-style: raleway; helvetica;
+}
+
+.header h2 {
+	position: absolute;
+	color: white;
+	font-size: 72px;
+	font-family: raleway, helvetica;
+	margin-left: 20px;
+	margin-top: 70px;
+	border-bottom: 10px solid white;
+	width: 95%;
+}
+
+.contact1 {
+	position: absolute;
+	color: white;
+	font-family: raleway, helvetica;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+
+.contact2 {
+	position: absolute;
+	color: white;
+	font-family: raleway, helvetica;
+	margin-left: 600px;
+	margin-top: 100px;
+}
+
+.contact3 {
+	position: absolute;
+	color: white;
+	font-family: raleway, helvetica;
+	margin-left: 760px;
+	margin-top: 100px;
+}
+
+.header-para {
+	position: absolute;
+	color: white;
+	font-family: raleway, helvetica;
+	font-size: 36px;
+	width: 600px;
+	height: 500px;
+	margin-top: 190px;
+	margin-left: 600px;
+	line-height: 200%;
+}
+
+.header  {
+	border-style: none;
+	background-color: black;
+	height: 800px;
+	margin-top: -40px;
+ 	margin-right: 0px;
+ 	margin-bottom: 0px;
+ 	margin-left: 0px;
+}
+
+#eduAnchor {
+	margin-top: -700px;
+}
+
+.edu {
+	position: absolute;
+	margin-top: 200px;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	margin-left: 20px;
+}
+
+.edu:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+.edu-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: -600px;
+	margin-left: 20px;
+}
+
+
+.edu-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 24px;
+	margin-top: -500px;
+	margin-left: 20px;
+	line-height: 200%;
+}
+
+.edu-thought-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 20px;
+	margin-top: -500px;
+	left: 850px;
+}
+
+.edu-thought-para {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: -450px;
+	margin left: 625px;	
+	left: 850px;
+	line-height: 175%;
+	width: 400px;
+}
+
+.edu-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 700px;
+}
+#workAnchor {
+	margin-top: -30px;
+}
+
+.work {
+	position: absolute;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	font-weight: lighter;
+	margin-top: 275px;
+	margin-left: 20px;
+}
+
+.work:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+
+.work-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.clicktime {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+.clicktime-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 220px;
+	margin-left: 20px;
+}
+
+.bld {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+
+.bld-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 370px;
+	margin-left: 20px;
+}
+
+.fgm {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 520px;
+	margin-left: 20px;
+}
+
+.fgm-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 540px;
+	margin-left: 20px;
+}
+
+.scpa {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 650px;
+	margin-left: 20px;
+}
+
+.scpa-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 670px;
+	margin-left: 20px;
+}
+
+.work-thought-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 20px;
+	margin-top: 125px;
+	left: 850px;
+}
+
+.work-thought-para {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: 165px;
+	margin left: 625px;	
+	left: 850px;
+	line-height: 175%;
+	width: 400px;
+}
+
+.work-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 800px;
+}
+
+#projectsAnchor {
+	margin-top: -30px;
+}
+
+.projects {
+	position: absolute;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	font-weight: lighter;
+	margin-top: 350px;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
+.projects:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+
+.projects-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.projects-title-sub {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: 110px;
+	margin-left: 225px;
+	width: 30%;
+}
+
+.proj1-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+.proj1-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 225px;
+	margin-left: 20px;
+}
+
+.proj1-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 250px;
+	margin-left: 20px;
+	width: 725px;
+}
+
+.proj2-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 375px;
+	margin-left: 20px;
+}
+
+.proj2-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 400px;
+	margin-left: 20px;
+}
+
+.proj2-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 425px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.proj3-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 525px;
+	margin-left: 20px;
+}
+
+.proj3-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 550px;
+	margin-left: 20px;
+}
+
+.proj3-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 575px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.proj4-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 760px;
+	margin-left: 20px;
+}
+
+.proj4-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 785px;
+	margin-left: 20px;
+}
+
+.proj4-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 805px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.proj5-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 900px;
+	margin-left: 20px;
+}
+
+.proj5-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 925px;
+	margin-left: 20px;
+}
+
+.proj5-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 950px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.projects-thought-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 20px;
+	margin-top: 125px;
+	left: 850px;
+}
+
+.projects-thought-para {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: 165px;
+	margin left: 625px;	
+	left: 850px;
+	line-height: 175%;
+	width: 400px;
+}
+
+.projects-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 1050px;
+}
+
+#skillsAnchor {
+	margin-top: -30px;
+}
+
+.skills {
+	position: absolute;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	font-weight: lighter;
+	margin-top: 425px;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
+.skills:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+.skills-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.skills-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 24px;
+	margin-top: 175px;
+	margin-left: 20px;
+	line-height: 200%;
+}
+
+.skills-thought-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 20px;
+	margin-top: 125px;
+	left: 850px;
+}
+
+.skills-thought-para {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: 165px;
+	margin left: 625px;	
+	left: 850px;
+	line-height: 175%;
+	width: 400px;
+}
+
+.skills-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 675px;
+}
+
+#leadAnchor {
+	margin-top: -30px;
+}
+
+.lead {
+	position: absolute;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	font-weight: lighter;
+	margin-top: 500px;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
+.lead:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+.lead-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: 75px;
+	margin-left: 20px;
+}
+
+.lead1-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+
+.lead1-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+
+.lead1-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 225px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.lead2-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+
+.lead2-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 375px;
+	margin-left: 20px;
+}
+
+.lead2-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 400px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.lead3-title {
+	position: absolute;
+	font-style: ;
+	font-size: 16px;
+	margin-top: 525px;
+	margin-left: 20px;
+}
+
+.lead3-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 550px;
+	margin-left: 20px;
+}
+
+.lead3-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 575px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.lead4-title {
+	position: absolute;
+	font-style: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 675px;
+	margin-left: 20px;
+}
+
+.lead4-sub {
+	position: absolute;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 700px;
+	margin-left: 20px;
+}
+
+.lead4-list {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 725px;
+	margin-left: 20px;
+	width: 750px;
+}
+
+.lead-thought-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 20px;
+	margin-top: 100px;
+	left: 850px;
+}
+
+.lead-thought-para {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 14px;
+	margin-top: 160px;
+	margin left: 625px;	
+	left: 850px;
+	line-height: 175%;
+	width: 400px;
+}
+
+.lead-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 850px;
+}
+
+#stuffAnchor {
+	margin-top: -30px;
+}
+
+.stuff {
+	position: absolute;
+	font-weight: lighter;
+	color: #b9b9b9;
+	font-size: 24px;
+	font-family: raleway, helvetica;
+	font-weight: lighter;
+	margin-top: 575px;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
+.stuff:hover {
+	text-decoration: underline;
+	color: white !important;
+}
+
+.stuff-title {
+	position: absolute;
+	color: black;
+	font-family: raleway, helvetica;
+	font-size: 48px;
+	text-decoration: underline;
+	margin-top: 75px;
+	margin-left: 20px;
+}
+
+.painting {
+	position: absolute;
+	font-style: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+.painting-pic {
+	width: 50%;
+	height: 50%;
+	margin-top: 225px;
+	margin-left: 20px;
+}
+
+.album {
+	position: absolute;
+	font-style: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.album-pic {
+	width: 50%;
+	margin-top: 125px;
+	margin-left: 20px;
+}
+
+.film {
+	position: absolute;
+	font-style: raleway, helvetica;
+	font-size: 16px;
+	margin-top: 125px;
+	margin-left: 20px;
+}
+
+.film-pic {
+	width: 50%;
+	height: 50%;
+	margin-top: 150px;
+	margin-left: 20px;
+}
+
+.stuff-divider {
+	background-color: black;
+	height: 15px;
+	width: 95%;
+	margin-top: 100px;
+}
+
+
+.dc {
+	font-style: italic;
+	font-size: 16px;
+}
+
+.menu-link{
+	opacity: 0;
+}
+
+.active-menu-link {
+	color: #b9b9b9;
+	opacity: 1;
+}
+
+.active-menu-link:hover {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.active-menu-link:active {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.active-menu-link:visited {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.active-menu-link:focus {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+
+.top-link {
+	color: #b9b9b9;
+}
+
+.top-link:hover {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.top-link:active {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.top-link:visited {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.top-link:focus {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+
+.section-title {
+	color: white;
+}
+
+
+
+
+
+
