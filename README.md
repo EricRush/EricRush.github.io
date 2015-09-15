@@ -1,2 +1,2 @@
 # EricRush.github.io
-Personal Website
+Beginnings of Personal Website. Still under construction.
